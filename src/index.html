@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traktor-Pio Link</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="control-group">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px;">
+          <label class="label">TRAKTOR PORT</label>
+          <button id="export_button" style="padding: 2px 6px; font-size: 0.45rem; letter-spacing: 1px; border-width: 1px;">COPY MAP FILES</button>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <input type="number" id="port_input" value="7001" style="width: 100%;" />
+        </div>
+      </div>
+
+      <div class="bpm-display">
+        <div id="bpm_value" class="bpm-value">0.0</div>
+        <div class="bpm-label">MASTER BPM</div>
+      </div>
+
+      <div class="control-group">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px;">
+          <label class="label">MIXER</label>
+          <div style="display: flex; align-items: center; gap: 4px;">
+            <span id="status_text" style="font-size: 0.45rem; color: var(--text-dim); text-transform: uppercase; font-family: 'JetBrains Mono', monospace;">DISCONNECTED</span>
+            <span id="status_dot" class="status-dot" style="margin-right: 0;"></span>
+          </div>
+        </div>
+        <select id="midi_select">
+          <option value="">Select device...</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
