@@ -35,7 +35,7 @@ Go to the **[Releases](https://github.com/donmurdoc/traktor-pio-link/releases)**
    - **macOS**: `/Applications/Native Instruments/Traktor Pro 4/Traktor Pro 4.app/Contents/Resources/qml/CSI/D2`
    - **Windows**: `C:\Program Files\Native Instruments\Traktor Pro 4\Resources\qml\CSI\D2`
    *(Note: Backup your original D2 folder before replacing)*.
-3. In Traktor, go to `Settings > Controller Manager > Add... > pre mapped > Ni > ` and select D2
+3. In Traktor, go to `Settings > Controller Manager > Add... > Traktor > ` and select D2
 
 ### 4. Connect to Mixer
 - Ensure your Pioneer mixer is connected via USB.
