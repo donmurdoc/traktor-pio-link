@@ -267,7 +267,7 @@ const API_CLIENT_JS: &str = r#"
 // ApiClient.js
 // Multicast to both Visual Buddy and S9-S11 hack
 var API_URLS = [
-  "http://127.0.0.1:7002"  // Traktor-Pio Link
+  "http://127.0.0.1:7003"  // Traktor-Pio Link
 ];
 
 function send(endpoint, data) {
@@ -503,13 +503,13 @@ pub fn run() {
                 midi_connection,
                 app_handle: app_handle.clone(),
                 server_handle: Arc::new(Mutex::new(None)),
-                current_port: Arc::new(Mutex::new(7001)),
+                current_port: Arc::new(Mutex::new(7003)),
             };
             app.manage(state.clone());
 
             let app_handle_for_server = app_handle.clone();
             let server_thread = tauri::async_runtime::spawn(async move {
-                let _ = start_server(app_handle_for_server, 7001).await;
+                let _ = start_server(app_handle_for_server, 7003).await;
             });
             *state.server_handle.lock().unwrap() = Some(server_thread);
 
