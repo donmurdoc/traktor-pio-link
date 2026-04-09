@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠 Setup & Installation
+## 🛠 Setup Guide
 
 ### 1. Download the App
 Go to the **[Releases](https://github.com/donmurdoc/traktor-pio-link/releases)** section and download the installer for your OS:
@@ -22,25 +22,26 @@ Go to the **[Releases](https://github.com/donmurdoc/traktor-pio-link/releases)**
 - **Windows**: `.exe` or `.msi`
 
 ### 2. Export & Install Mapping Files
-1. Open **Traktor-Pio-Link**.
-2. Click the **"MAPPING FILES"** button.
-3. Select a destination (e.g., your Desktop).
-4. You will get two items:
-   - A folder named **`D2`**.
-   - A file named **`s9-PAD-modes-modifier-template.tsi`**.
+1. Open **Traktor-Pio-Link** and click the **"MAPPING FILES"** button.
+2. Select a destination (e.g. your Desktop). You will get:
+   - **D2 folder**
+   - **s9-PAD-modes-modifier-template.tsi**
 
 ### 3. Configure Traktor
-1. **MIDI Mapping**: In Traktor, go to `Settings > Controller Manager > Add... > Import TSI` and select the `.tsi` file exported in step 2.
-2. **QML Mod**: Copy the generated **`D2`** folder to your Traktor installation directory:
-   - **macOS**: `/Applications/Native Instruments/Traktor Pro 4/Traktor Pro 4.app/Contents/Resources/qml/CSI/D2`
-   - **Windows**: `C:\Program Files\Native Instruments\Traktor Pro 4\Resources\qml\CSI\D2`
-   *(Note: Backup your original D2 folder before replacing)*.
-3. In Traktor, go to `Settings > Controller Manager > Add... > Pre Mapped > Traktor Kontrol > ` and select D2
+- **MIDI Mapping — In Traktor:**
+  `Settings > Controller Manager > Add... > Import TSI` -> select the `.tsi` file from Step 2.
+- **QML Mod — Copy the D2 folder to your Traktor directory:**
+  - **macOS**: `/Applications/Native Instruments/Traktor Pro 4/Traktor Pro 4.app/Contents/Resources/qml/CSI/D2`
+  - **Windows**: `C:\Program Files\Native Instruments\Traktor Pro 4\Resources\qml\CSI\D2`
+  *(Note: Backup your original D2 folder before replacing it).*
+- **Then, in Traktor:**
+  `Settings > Controller Manager > Add... > Pre Mapped > Traktor Kontrol > D2`
 
 ### 4. Connect to Mixer
 - Ensure your Pioneer mixer is connected via USB.
 - In the app, select the mixer from the **MIXER** dropdown.
-- When Traktor is playing, the **MASTER BPM** display will light up and your mixer's effects will sync perfectly.
+
+When Traktor is playing, the **MASTER BPM** display will light up and your mixer's effects will sync perfectly. **You're all set!**
 
 ---
 
@@ -49,6 +50,17 @@ Go to the **[Releases](https://github.com/donmurdoc/traktor-pio-link/releases)**
 - **Backend**: Rust (Axum + Midir) for ultra-low latency.
 - **Frontend**: Tauri + Vanilla CSS (Flat Design).
 - **Protocol**: HTTP/JSON from Traktor QML to local server (Port 7001/7002).
+
+---
+
+## ☕ Support & Donations
+
+If this project helps your DJ sets, consider buying me a coffee!
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/traktorpiolink)
+
+**[ko-fi.com/traktorpiolink](https://ko-fi.com/traktorpiolink)**
+
+> I'm also very good at making MIDI mappings, and I have killer mappings for the S9. DM if you want it!
 
 ---
 
