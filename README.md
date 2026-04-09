@@ -5,7 +5,7 @@
 ![App Icon](src-tauri/icons/128x128.png)
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/traktorpiolink) 
-*¿Te salvó la sesión? Comprame un café. Mi gato tiene hambre y mi dignidad está en oferta. 😿☕️*
+*I could really use a tip, I'm so hungry 🍕😿*
 
 ## 🌟 Key Features
 
