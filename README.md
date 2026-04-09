@@ -63,9 +63,17 @@ If this project helps your DJ sets, consider buying me a coffee!
 
 > I'm also very good at making MIDI mappings, and I have killer mappings for the S9. DM if you want it!
 
+## ⚠️ Disclaimer
+
+This is an experimental tool that interacts with professional hardware via MIDI SysEx protocols. Use it at your own risk.
+
+- **No Warranty**: The software is provided "as is". The author makes no guarantees regarding its stability or compatibility with future hardware/software versions.
+- **Limitation of Liability**: The author shall not be held responsible for any damage to your computer, DJ equipment (CDJs, mixers, etc.), data loss, or any technical issues occurring during live performances.
+- **Testing**: It is strongly recommended to test this tool thoroughly in a safe, non-live environment before using it in a professional setting.
+
 ---
 
-## 🛡️ License & Privacy
-This repository is **Open Source** under the [MIT License](LICENSE). 
+## 🛡️ License
+This project is licensed under the [MIT License](LICENSE). 
 
 *Crafted for DJs by DJs.* 🎧🕶️✨
