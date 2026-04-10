@@ -24,7 +24,7 @@ Go to the **[Releases](https://github.com/lautrip/traktor-pio-link/releases)** s
 
 ### 3. Configure Traktor
 - **MIDI Mapping — In Traktor:**
-  `Settings > Controller Manager > Add... > Import TSI` -> select the `.tsi` file from Step 2. Then select for midi in and out your mixer (S9,S7,S11). You only need this to activated pad modes.
+  `Settings > Controller Manager > Add... > Import TSI` -> select the `.tsi` file from Step 2. Then select for midi in and out your mixer (S9,S7,S11). You only need this to activate pad modes.
 - **QML Mod — Copy the D2 folder to your Traktor directory:**
   - **macOS**: `/Applications/Native Instruments/Traktor Pro 4/Traktor Pro 4.app/Contents/Resources/qml/CSI/D2`
   - **Windows**: `C:\Program Files\Native Instruments\Traktor Pro 4\Resources\qml\CSI\D2`
